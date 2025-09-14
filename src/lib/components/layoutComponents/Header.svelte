@@ -38,7 +38,7 @@
 			  <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
 			  <ul
 				tabindex="0"
-				class="menu bg-base-200 text-base-content min-h-full w-80 p-4"
+				class="menu bg-gray-100 text-base-content text-blue-600 font-bold min-h-full w-80 p-4"
 			>
 				<li><a on:click={closeDrawer} href="/">Acceuil</a></li>
 				<li>
@@ -71,7 +71,7 @@
 		>
 	</div>
 	<div class="navbar-center hidden lg:flex">
-		<ul class="menu menu-horizontal px-1 text-lg">
+		<ul class="menu menu-horizontal px-1 text-lg font-semibold">
 			<li><a href="/">Acceuil</a></li>
 			<li>
 				<details>
@@ -96,7 +96,7 @@
 	</div>
 	<div class="navbar-end">
 
-		<input type="checkbox" value="night" class="toggle theme-controller mr-2" />
+		<input type="checkbox" value="synthwave" class="toggle theme-controller mr-2" />
 		
 		
 	</div>
