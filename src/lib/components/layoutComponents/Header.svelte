@@ -12,10 +12,10 @@
 
 <div class="navbar bg-base-100 sticky top-0 shadow-sm z-50">
 	<div class="navbar-start">
-		<a href="/"  class="hidden lg:inline-block"
-			><img src={ecostafLogo} class="h-14 rounded-b-xs" alt="ECO STAF Logo" /></a
+		<a href="/"  class="hidden md:inline-block"
+			><img src={ecostafLogo} class="h-14 rounded-xs -mt-2" alt="ECO STAF Logo" /></a
 		>
-		<div class="drawer lg:hidden">
+		<div class="drawer md:hidden">
 			<input id="my-drawer" type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content">
 			  <!-- Page content here -->
@@ -38,7 +38,7 @@
 			  <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
 			  <ul
 				tabindex="0"
-				class="menu bg-gray-100 text-base-content text-blue-600 min-h-full w-80 p-4"
+				class="menu bg-gray-100 text-base-content text-blue-600 min-h-full w-80 p-4 font-bold"
 			>
 				<li><a on:click={closeDrawer} href="/">Acceuil</a></li>
 				<li>
@@ -61,21 +61,28 @@
 			</div>
 		  </div>
 	</div>
-		<div class="navbar-center lg:hidden">
-		<a href="/" style=""  class=""
+		<div class="navbar-center md:hidden">
+		<a href="/" 
 			><img src={ecostafLogo} class="h-14 rounded-xs" alt="ECO STAF Logo" /></a
 		>
 	</div>
-	<div class="navbar-center hidden lg:flex">
-		<ul class="menu menu-horizontal px-1 text-lg ">
+	<div class="navbar-center hidden md:flex">
+		<ul class="menu menu-horizontal px-1 text-lg font-bold ">
 			<li><a href="/">Acceuil</a></li>
 
+			<li>
+				<details>
+						<summary class="px-8"><a href="/">Services</a></summary>
+						<ul class="py-2 w-full text-center items-center m-auto">
+							<li><a class="text-center m-auto" href="/">Énergie</a></li>
+							<li><a class="text-center m-auto" href="/">Télécom</a></li>
+							<li><a class="text-center m-auto" href="/">Technologie</a></li>
+						</ul>
+				</details>
+			</li>
 
-			<li><a href="/">Énergie</a></li>
 
-			<li><a href="/">Télécom</a></li>
 
-			<li><a href="/">Technologie</a></li>
 
 			<li><a href="/">Localisez-nous</a></li>
 
