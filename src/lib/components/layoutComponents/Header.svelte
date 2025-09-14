@@ -36,30 +36,26 @@
 			</div>
 			<div class="drawer-side">
 			  <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-			  <ul
+			  <ul style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
 				tabindex="0"
-				class="menu bg-gray-100 text-base-content text-blue-600 font-bold min-h-full w-80 p-4"
+				class="menu bg-gray-100 text-base-content text-blue-600 min-h-full w-80 p-4"
 			>
 				<li><a on:click={closeDrawer} href="/">Acceuil</a></li>
 				<li>
-					<a on:click={closeDrawer} href="/voitures">Partenaires</a>
-					<ul class="p-2 tracking-wider">
-						<li><a on:click={closeDrawer} href="/voitures/neuf">Partenaire A</a></li>
-						<li><a on:click={closeDrawer} href="/voitures/occasion">Partenaire B</a></li>
-					</ul>
+					
 				</li>
 				<li>
-					<a on:click={closeDrawer} href="/services">Services</a>
+					<a on:click={closeDrawer} href="/">Services</a>
 					<ul class="p-2 tracking-wider">
-						<li><a on:click={closeDrawer} href="/services/vidange">Énergie</a></li>
-						<li><a on:click={closeDrawer} href="/services/pneu">Télécom</a></li>
-						<li><a on:click={closeDrawer} href="/services/freinage">Technologie</a></li>
+						<li><a on:click={closeDrawer} href="/">Énergie</a></li>
+						<li><a on:click={closeDrawer} href="/">Télécom</a></li>
+						<li><a on:click={closeDrawer} href="/">Technologie</a></li>
 						
 					</ul>
 				</li>
 				
-				<li><a on:click={closeDrawer} href="/localisez-nous">Localisez-nous</a></li>
-				<li><a on:click={closeDrawer} href="/aboutUs">À propos</a></li>
+				<li><a on:click={closeDrawer} href="/">Localisez-nous</a></li>
+				<li><a on:click={closeDrawer} href="/">À propos</a></li>
 			</ul>
 	
 			</div>
@@ -71,27 +67,19 @@
 		>
 	</div>
 	<div class="navbar-center hidden lg:flex">
-		<ul class="menu menu-horizontal px-1 text-lg font-semibold">
+		<ul style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" class="menu menu-horizontal px-1 text-lg ">
 			<li><a href="/">Acceuil</a></li>
-			<li>
-				<details>
-					<summary class="px-4"><a href="/voitures">Partenaires</a></summary>
-					<ul class="p-2 w-full text-center items-center m-auto">
-						<li><a class="text-center m-auto" href="/voitures/neuf">Partenaire A</a></li>
-						<li><a class="text-center m-auto" href="/voitures/occasion">Partenaire B</a></li>
-					</ul>
-				</details>
-			</li>
 
-			<li><a href="/services">Énergie</a></li>
 
-			<li><a href="/cartegrise">Télécom</a></li>
+			<li><a href="/">Énergie</a></li>
 
-			<li><a href="/cpiww">Technologie</a></li>
+			<li><a href="/">Télécom</a></li>
 
-			<li><a href="/localisez-nous">Localisez-nous</a></li>
+			<li><a href="/">Technologie</a></li>
 
-			<li><a href="/aboutUs">À propos</a></li>
+			<li><a href="/">Localisez-nous</a></li>
+
+			<li><a href="/">À propos</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">
