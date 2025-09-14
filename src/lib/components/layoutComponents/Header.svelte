@@ -36,7 +36,7 @@
 			</div>
 			<div class="drawer-side">
 			  <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-			  <ul style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+			  <ul
 				tabindex="0"
 				class="menu bg-gray-100 text-base-content text-blue-600 min-h-full w-80 p-4"
 			>
@@ -67,7 +67,7 @@
 		>
 	</div>
 	<div class="navbar-center hidden lg:flex">
-		<ul style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" class="menu menu-horizontal px-1 text-lg ">
+		<ul class="menu menu-horizontal px-1 text-lg ">
 			<li><a href="/">Acceuil</a></li>
 
 
