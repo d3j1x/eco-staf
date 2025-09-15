@@ -1,3 +1,8 @@
+<script>
+	import Hero from "$lib/components/homeComponents/Hero.svelte";
+	import Services from "$lib/components/homeComponents/Services.svelte";
+
+</script>
 <svelte:head>
 	<title>ECO STAF​</title>
 	<meta
@@ -7,3 +12,7 @@
 	
 	
 </svelte:head>
+
+<Hero />
+
+<Services />

@@ -60,6 +60,7 @@
 		"svelte"
 	],
 	"dependencies": {
-		"daisyui": "^5.1.10"
+		"daisyui": "^5.1.10",
+		"motion": "^12.23.12"
 	}
 }
