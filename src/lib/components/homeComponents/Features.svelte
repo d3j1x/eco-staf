@@ -1,5 +1,5 @@
 <script>
-    import fibreOptiqueLogo from '$lib/images/fibrelogo.jpg'
+    import fibreOptiqueLogo from '$lib/images/fibrelogo.webp'
 </script>
 
 
