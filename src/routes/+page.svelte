@@ -1,4 +1,6 @@
 <script>
+	
+	import Features from "$lib/components/homeComponents/Features.svelte";
 	import Hero from "$lib/components/homeComponents/Hero.svelte";
 	import Services from "$lib/components/homeComponents/Services.svelte";
 
@@ -16,3 +18,6 @@
 <Hero />
 
 <Services />
+
+<Features />
+
