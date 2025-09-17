@@ -24,7 +24,7 @@
 <section class="bg-gradient-to-r from-green-400 via-blue-500 to-indigo-600 text-white">
   <div class="max-w-7xl mx-auto px-6 py-24 text-center">
     <h1 class="text-4xl sm:text-5xl font-bold mb-6">ÉNERGIE</h1>
-    <p class="text-lg sm:text-xl mb-8"><span class="font-bold">ECO STAF</span> Votre partenaire en sous-traitance pour l’installation de bornes électriques.</p>
+    <p class="text-lg sm:text-xl"><span class="font-bold">ECO STAF</span> Votre partenaire en sous-traitance pour l’installation de bornes électriques.</p>
 
   </div>
 </section>

@@ -7,6 +7,25 @@
 		const checkbox = document.getElementById('my-drawer');
 		if (checkbox) checkbox.checked = false;
 	}
+
+	// Close details when clicking a link inside
+  function closeDetails(event) {
+    const details = event.target.closest('details');
+    if (details) {
+      details.removeAttribute('open');
+    }
+  }
+
+  // Close details when clicking outside
+  function handleClickOutside(event) {
+    const details = document.querySelector('details[open]');
+    if (details && !details.contains(event.target)) {
+      details.removeAttribute('open');
+    }
+  }
+
+  // Listen for clicks outside
+  document.addEventListener('click', handleClickOutside);
 </script>
 
 
@@ -72,13 +91,13 @@
 
 			<li>
 				<details>
-						<summary class="px-8"><a href="/">Services</a></summary>
-						<ul class="py-2 w-full text-center items-center m-auto">
-							<li><a class="text-center m-auto" href="/services/energie">Énergie</a></li>
-							<li><a class="text-center m-auto" href="/services/telecom">Télécom</a></li>
-							<li><a class="text-center m-auto" href="/">Technologie</a></li>
-						</ul>
-				</details>
+  <summary class="px-8">Services</summary>
+  <ul class="py-2 w-full text-center items-center m-auto">
+    <li><a class="text-center m-auto" href="/services/energie" on:click={closeDetails}>Énergie</a></li>
+    <li><a class="text-center m-auto" href="/services/telecom" on:click={closeDetails}>Télécom</a></li>
+    <li><a class="text-center m-auto" href="/" on:click={closeDetails}>Technologie</a></li>
+  </ul>
+</details>
 			</li>
 
 
