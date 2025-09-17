@@ -10,11 +10,11 @@
 
   <div class="container px-16 md:px-8 lg:px-28 w-full m-auto">
     <div class="grid grid-cols-12 justify-between">
-      <div class="col-span-12 lg:col-span-5 flex flex-col justify-center text-center lg:text-start">
+      <div class="col-span-12 lg:col-span-5 flex flex-col justify-center ">
         <h2 class="font-bold text-[32px] leading-none md:text-[45px] mb-6 mt-0 md:mt-12">Fibre Optique !</h2>
-        <p class="text-lg opacity-80 mb-12 lg:mb-0 font-semibold leading-loose">
-          Nos équipes accompagnent chaque étape du cycle de vie des réseaux d’accès TELECOM, FTTH et xDSL, toutes générations confondues.
-Nous intervenons sur :<br><br>
+        <p class="text-lg opacity-80 mb-12 lg:mb-0 font-semibold leading-relaxed">
+       <span class="font-bold"> Nos équipes accompagnent chaque étape du cycle de vie des réseaux d’accès TELECOM, FTTH et xDSL, toutes générations confondues.</span><br><br>
+Nous intervenons sur :<br>
 
 La réalisation d'infrastructures en génie civil et en aérien.<br>
 Le déploiement de réseaux fibre optique, cuivre et coaxiaux.<br>
