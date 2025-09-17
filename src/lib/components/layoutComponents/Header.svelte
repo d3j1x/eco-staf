@@ -1,5 +1,8 @@
 <script lang="ts">
 
+	  import { onMount, onDestroy } from 'svelte';
+
+
 	import ecostafLogo from '$lib/images/logo-ecostaf.png';
 
 
@@ -25,7 +28,13 @@
   }
 
   // Listen for clicks outside
-  document.addEventListener('click', handleClickOutside);
+  onMount(() => {
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  });
 </script>
 
 
