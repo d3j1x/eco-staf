@@ -1,7 +1,7 @@
 <script>
   import { animate } from "motion";
   import { onMount } from "svelte";
-  import electricimg from '$lib/images/electric.png';
+  import electricimg from '$lib/images/electricpress.webp';
 
   let title, subtitle, buttons;
 

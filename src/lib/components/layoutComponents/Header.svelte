@@ -47,7 +47,7 @@
 				<li>
 					<a on:click={closeDrawer} href="/">Services</a>
 					<ul class="p-2 tracking-wider">
-						<li><a on:click={closeDrawer} href="/">Énergie</a></li>
+						<li><a on:click={closeDrawer} href="/services/energie">Énergie</a></li>
 						<li><a on:click={closeDrawer} href="/services/telecom">Télécom</a></li>
 						<li><a on:click={closeDrawer} href="/">Technologie</a></li>
 						
@@ -74,7 +74,7 @@
 				<details>
 						<summary class="px-8"><a href="/">Services</a></summary>
 						<ul class="py-2 w-full text-center items-center m-auto">
-							<li><a class="text-center m-auto" href="/">Énergie</a></li>
+							<li><a class="text-center m-auto" href="/services/energie">Énergie</a></li>
 							<li><a class="text-center m-auto" href="/services/telecom">Télécom</a></li>
 							<li><a class="text-center m-auto" href="/">Technologie</a></li>
 						</ul>

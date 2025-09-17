@@ -30,7 +30,7 @@
       <!-- Énergie -->
       <div class="p-8 rounded-2xl shadow-lg border  hover:shadow-2xl transition transform hover:-translate-y-2">
         <div class=" text-5xl mb-4">⚡</div>
-        <h3 class="text-xl font-semibold ">Énergie</h3>
+        <h3 class="text-xl font-semibold "><a href="/services/energie">Énergie</a></h3>
         <p class="mt-3 ">
           Installation et maintenance électriques fiables, adaptées à tous types de locaux.
         </p>
