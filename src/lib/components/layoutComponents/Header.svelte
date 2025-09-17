@@ -48,13 +48,13 @@
 					<a on:click={closeDrawer} href="/">Services</a>
 					<ul class="p-2 tracking-wider">
 						<li><a on:click={closeDrawer} href="/">Énergie</a></li>
-						<li><a on:click={closeDrawer} href="/">Télécom</a></li>
+						<li><a on:click={closeDrawer} href="/services/telecom">Télécom</a></li>
 						<li><a on:click={closeDrawer} href="/">Technologie</a></li>
 						
 					</ul>
 				</li>
 				
-				<li><a on:click={closeDrawer} href="/">Localisez-nous</a></li>
+				<li><a on:click={closeDrawer} href="/locateUS">Localisez-nous</a></li>
 				<li><a on:click={closeDrawer} href="/">À propos</a></li>
 			</ul>
 	
@@ -75,7 +75,7 @@
 						<summary class="px-8"><a href="/">Services</a></summary>
 						<ul class="py-2 w-full text-center items-center m-auto">
 							<li><a class="text-center m-auto" href="/">Énergie</a></li>
-							<li><a class="text-center m-auto" href="/">Télécom</a></li>
+							<li><a class="text-center m-auto" href="/services/telecom">Télécom</a></li>
 							<li><a class="text-center m-auto" href="/">Technologie</a></li>
 						</ul>
 				</details>
@@ -84,7 +84,7 @@
 
 
 
-			<li><a href="/">Localisez-nous</a></li>
+			<li><a href="/locateUS">Localisez-nous</a></li>
 
 			<li><a href="/">À propos</a></li>
 		</ul>
