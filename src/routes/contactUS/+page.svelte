@@ -8,8 +8,8 @@
     <ul class="space-y-6 text-lg">
       <li>
         📧
-        <a href="mailto:contact@ecostaf.tn" class="text-indigo-600 hover:underline">
-          contact@ecostaf.tn
+        <a href="mailto:contact@eco-staf.fr" class="text-indigo-600 hover:underline">
+          contact@eco-staf.fr
         </a>
       </li>
       <li>
