@@ -44,13 +44,13 @@
       class="mt-8 flex justify-center gap-4 opacity-0"
     >
       <a
-        href="/"
+        href="/whyUS"
         class="px-6 py-3 rounded-2xl bg-blue-500 hover:bg-blue-600 transition shadow-lg font-semibold"
       >
         Pourquoi nous choisir ?
       </a>
       <a
-        href="/"
+        href="/contactUS"
         class="px-6 py-3 rounded-2xl border border-white hover:bg-white hover:text-black transition font-semibold"
       >
         Contactez-nous
