@@ -3,6 +3,7 @@
 	
 	import Hero from "$lib/components/homeComponents/Hero.svelte";
 	import Services from "$lib/components/homeComponents/Services.svelte";
+	import About from "$lib/components/homeComponents/About.svelte";
 
 </script>
 <svelte:head>
@@ -18,6 +19,8 @@
 <Hero />
 
 <Services />
+
+<About />
 
 
 

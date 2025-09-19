@@ -83,7 +83,7 @@
 				</li>
 				
 				<li><a on:click={closeDrawer} href="/locateUS">Localisez-nous</a></li>
-				<li><a on:click={closeDrawer} href="/">À propos</a></li>
+				<li><a on:click={closeDrawer} href="/about">À propos</a></li>
 			</ul>
 	
 			</div>
@@ -114,7 +114,7 @@
 
 			<li><a href="/locateUS">Localisez-nous</a></li>
 
-			<li><a href="/">À propos</a></li>
+			<li><a href="/about">À propos</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">
