@@ -6,37 +6,37 @@
   <div class="container px-4">
     <div class="grid grid-cols-12 items-center gap-4 mb-12">
       <div class="col-span-12 lg:col-span-6">
-        <h6 class="font-medium opacity-70 mb-2">Bonjour Visiteur,</h6>
-        <h1 class="text-3xl leading-none font-bold uppercase tracking-wider mb-2">Bienvenue à ECO STAF</h1>
+        
+        <h1 class="text-3xl leading-none font-bold uppercase tracking-wider mb-2  text-blue-900">Bienvenue à ECO STAF</h1>
         <hr class="bg-blue-600 h-1 rounded-[3px] w-12 opacity-100 my-6" />
-        <p class="opacity-70 mb-2">
+        <p class=" mb-2">
           Spécialisée dans les travaux d’installation électrique et fibre optique dans tous locaux,
 nous proposons des solutions modernes, sécurisées et adaptées à vos besoins professionnels comme résidentiels.
         </p>
-        <ul class="flex flex-col ezy__about9-features mt-5">
+        <ul class="flex flex-col ezy__about9-features mt-5 font-semibold">
           <li>
             <span class="fas fa-check text-blue-600 mr-2 mb-4 text-sm"></span>
-            <span class="opacity-75 text-sm">Solutions modernes</span>
+            <span class=" text-sm ">Solutions modernes</span>
           </li>
           <hr class="w-11/12 my-2" />
           <li>
             <span class="fas fa-check text-blue-600 mr-2 mb-4 text-sm"></span>
-            <span class="opacity-75 text-sm">Sécurité renforcée</span>
+            <span class=" text-sm">Sécurité renforcée</span>
           </li>
           <hr class="w-11/12 my-2" />
           <li>
             <span class="fas fa-check text-blue-600 mr-2 mb-4 text-sm"></span>
-            <span class="opacity-75 text-sm">Adaptées à vos besoins</span>
+            <span class=" text-sm">Adaptées à vos besoins</span>
           </li>
           <hr class="w-11/12 my-2" />
           <li>
             <span class="fas fa-check text-blue-600 mr-2 mb-4 text-sm"></span>
-            <span class="opacity-75 text-sm">Accompagnement professionnel</span>
+            <span class=" text-sm">Accompagnement professionnel</span>
           </li>
           <hr class="w-11/12 my-2" />
           <li>
             <span class="fas fa-check text-blue-600 mr-2 text-sm"></span>
-            <span class="opacity-75 text-sm">Fiabilité garantie</span>
+            <span class="text-sm">Fiabilité garantie</span>
           </li>
         </ul>
         <div class="mt-12">

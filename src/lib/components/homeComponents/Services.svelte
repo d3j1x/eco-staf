@@ -19,9 +19,7 @@
     <h2 class="text-3xl sm:text-4xl font-bold ">
       Nos Services
     </h2>
-    <p class="mt-4 text-lg  max-w-2xl mx-auto">
-      Des solutions modernes et sécurisées pour répondre à vos besoins.
-    </p>
+
 
     <div
       bind:this={cards}
