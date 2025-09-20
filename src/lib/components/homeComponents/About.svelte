@@ -2,7 +2,7 @@
     import stafImg from '$lib/images/staf.webp';
 </script>
 
-<section class="ezy__about9 light py-14 md:py-24 hero">
+<section class="ezy__about9 light py-14 md:py-24 hero ">
   <div class="container px-4">
     <div class="grid grid-cols-12 items-center gap-4 mb-12">
       <div class="col-span-12 lg:col-span-6">

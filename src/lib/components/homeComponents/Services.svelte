@@ -16,8 +16,8 @@
 
 <section id="services" class="relative py-20">
   <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold ">
-      Nos Services
+    <h2 class="text-3xl sm:text-4xl font-bold text-blue-900">
+      NOS SERVICES
     </h2>
 
 

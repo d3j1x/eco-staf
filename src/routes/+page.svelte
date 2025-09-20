@@ -4,6 +4,8 @@
 	import Hero from "$lib/components/homeComponents/Hero.svelte";
 	import Services from "$lib/components/homeComponents/Services.svelte";
 	import About from "$lib/components/homeComponents/About.svelte";
+	import Partners from "$lib/components/homeComponents/Partners.svelte";
+
 
 </script>
 <svelte:head>
@@ -20,7 +22,11 @@
 
 <Services />
 
+
+
 <About />
+
+<Partners />
 
 
 
